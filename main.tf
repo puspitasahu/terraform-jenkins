@@ -9,7 +9,7 @@ terraform {
 
 # Specify the AWS provider
 provider "aws" {
-  region = "us-east-1"  # Set the AWS region
+  region = "ap-south-1"  # Set the AWS region
 }
 
 # Example resource to create an EC2 instance
