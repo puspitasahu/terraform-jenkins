@@ -15,7 +15,7 @@ provider "aws" {
 # Example resource to create an EC2 instance
 resource "aws_instance" "my_instance" {
   ami           = "ami-0614680123427b75e"  # Amazon Linux 2 AMI
-  instance_type = "t2.micro"  # Instance type
+  instance_type = "var.ec2_instance_type"  # Instance type
 
   tags = {
     Name = "MyInstance"
